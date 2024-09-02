@@ -75,7 +75,7 @@ module BricklinkApiWrapper
       color_id
     ].freeze
 
-    def self.index(params = { status: STATUS[:stockroom_a] })
+    def self.index(params = { status: STATUS[:available] })
       supported_params = params.slice(*SUPPORTED_INDEX_PARAMS)
       query_string = supported_params.empty? ? '' : "?#{URI.encode_www_form(supported_params)}"
 

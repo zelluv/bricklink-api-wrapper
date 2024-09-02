@@ -4,6 +4,7 @@ require 'bricklink/config'
 require 'bricklink/api'
 require 'bricklink_api_wrapper/order'
 require 'bricklink_api_wrapper/user_inventory'
+require 'bricklink_api_wrapper/price_guide'
 require 'json'
 
 module Net
