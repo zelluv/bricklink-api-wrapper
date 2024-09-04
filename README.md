@@ -19,10 +19,12 @@ The official API entry page for the store API can be found [here](https://www.br
   * GET /inventories
   * GET /inventories/{inventory_id}
   * POST /inventories/
+* [Price guide](./lib/bricklink_api_wrapper/price_guide.rb)
+  * GET /items/{type}/{no}/price
 
 ## Configuration
 
-Consuming the Bricklink API requires you to setup your API credenials. This can be done by renaming `./config/application_example.yml` to `./config/application_example.yml` and replace the dummy value in this file with yours: 
+Consuming the Bricklink API requires you to setup your API credenials. This can be done by renaming `./config/application_example.yml` to `./config/application.yml` and replace the dummy value in this file with yours: 
 
 ```yml
 consumer_key: your-key
