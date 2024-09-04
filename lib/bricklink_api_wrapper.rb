@@ -10,7 +10,7 @@ require 'json'
 module Net
   class HTTPGenericRequest
     # oauth_body_hash causes BL to not recognize the signature correctly
-    def oauth_body_hash_required?
+    def oauth_body_hash_required?(*)
       false
     end
   end
